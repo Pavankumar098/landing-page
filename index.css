@@ -1,0 +1,73 @@
+body {
+    background-image: linear-gradient(to bottom right, #ffcc00, #ff6699);
+    background-size: cover;
+    position: relative;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  ul li {
+    list-style-type: none;
+  }
+  
+  .menu-bar ul {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .menu-bar ul li {
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 18px;
+    color: #ffcc00; /* Yellow color for menu items */
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+  }
+  
+  .menu-bar ul li:hover {
+    transform: scale(1.1);
+    color: #ff6699; /* Pink color on hover */
+  }
+  
+  h1.paragraph,
+  h2.paragraph2,
+  p.paragraph5,
+  .lets-go-btn,
+  .footer {
+    text-align: center;
+    color: #ff0066; /* Pink color for text */
+  }
+  
+  .lets-go-btn {
+    background-color: #ff6699; /* Lighter pink button background */
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .lets-go-btn:hover {
+    background-color: #ffcc00; /* Yellow button background on hover */
+  }
+  
+  .footer {
+    background-color: rgba(255, 255, 255, 0.7); /* Semi-transparent white background */
+    padding: 20px;
+  }
+  
+  .icons a {
+    color: #ff6699; /* Pink color for icon links */
+    margin-right: 10px;
+    font-size: 24px;
+  }
+  
+  .p1 {
+    color: #ff6699; /* Pink color for copyright text */
+    font-size: 14px;
+    text-align: center;
+  }
+  
